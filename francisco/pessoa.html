@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <title>Entre Nós</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="person-page">
+
+    <div class="page-transition">
+        <div class="transition-glow"></div>
+    </div>
+
+    <div class="scene">
+
+        <div class="aurora aurora-1"></div>
+        <div class="aurora aurora-2"></div>
+
+        <div class="stars stars-back"></div>
+        <div class="stars stars-front"></div>
+
+        <div class="dust dust-1"></div>
+        <div class="dust dust-2"></div>
+        <div class="dust dust-3"></div>
+        <div class="dust dust-4"></div>
+
+        <div class="vignette"></div>
+
+    </div>
+
+    <main class="person-content">
+
+        <header class="person-header">
+
+            <div class="brand">
+                ENTRE <span>NÓS</span>
+            </div>
+
+            <div class="header-number">
+                01
+            </div>
+
+        </header>
+
+        <!-- INTRO -->
+
+        <section id="intro" class="intro-section">
+
+            <div class="intro-mark">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <p class="intro-small">
+                antes de qualquer coisa
+            </p>
+
+            <h1>
+                Oi,
+                <span id="personName">...</span>.
+            </h1>
+
+            <div class="intro-divider"></div>
+
+            <p class="intro-text">
+                Eu pensei bastante antes de fazer isso.
+            </p>
+
+            <p class="intro-text muted">
+                Algumas coisas simplesmente ficam difíceis
+                de dizer quando estamos frente a frente.
+            </p>
+
+            <button id="startButton" class="begin-button">
+
+                <span class="begin-circle">
+                    →
+                </span>
+
+                <span>
+                    começar
+                </span>
+
+            </button>
+
+        </section>
+
+        <!-- CARTA -->
+
+        <section id="letter" class="letter-section hidden">
+
+            <div class="letter-header">
+
+                <div class="chapter">
+
+                    <span id="partNumber">01</span>
+
+                    <small>/ 04</small>
+
+                </div>
+
+                <div class="chapter-line">
+                    <div id="progressBar"></div>
+                </div>
+
+                <div class="chapter-label">
+                    ENTRE NÓS
+                </div>
+
+            </div>
+
+            <article class="letter-content">
+
+                <div class="chapter-symbol">
+                    ✦
+                </div>
+
+                <div class="letter-copy">
+
+                    <h2 id="partTitle">
+                        Uma coisa que eu precisava dizer
+                    </h2>
+
+                    <div id="partText" class="letter-text">
+                        [COLOQUE SEU TEXTO AQUI]
+                    </div>
+
+                </div>
+
+            </article>
+
+            <div class="letter-navigation">
+
+                <button
+                    id="backButton"
+                    class="nav-button back"
+                    type="button"
+                >
+                    <span>←</span>
+                    voltar
+                </button>
+
+                <button
+                    id="nextButton"
+                    class="nav-button next"
+                    type="button"
+                >
+                    continuar
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- FINAL -->
+
+        <section id="final" class="final-section hidden">
+
+            <div class="final-symbol">
+                ✦
+            </div>
+
+            <p class="final-small">
+                e então chegamos aqui
+            </p>
+
+            <h1>
+                Obrigado por
+                <span>me ouvir.</span>
+            </h1>
+
+            <div class="final-line"></div>
+
+            <p class="final-text">
+                [COLOQUE SUA MENSAGEM FINAL AQUI]
+            </p>
+
+            <div class="signature">
+                entre nós
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
